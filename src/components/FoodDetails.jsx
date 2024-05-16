@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export default function FoodDetails({ foodId }) {
   const URL = `https://api.spoonacular.com/recipes/${foodId}/information`;
-  const API_KEY = process.env.API_KEY;
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   // console.log(foodId);
 
